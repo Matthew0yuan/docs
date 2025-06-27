@@ -36,10 +36,10 @@ To get the updated code, you need to checkout the `add-db` branch. For the chang
    $ git stash -u
    ```
 
-2. Check out the new branch with the updated application.
+2. Create a new branch with the updated application.
 
    ```console
-   $ git checkout add-db
+   $ git checkout -b add-db
    ```
 
 In the `add-db` branch, only the .NET application has been updated. None of the Docker assets have been updated yet.
